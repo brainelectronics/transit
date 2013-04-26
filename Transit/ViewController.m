@@ -29,6 +29,14 @@
 
 - (IBAction)openSecondView:(id)sender
 {
+    /*
+     Add a new file
+     Objective-C Class
+     Subclass of ViewController
+     
+     import the file above with #import "SecondViewController.h"
+     */
+    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
     SecondViewController *secondView = (SecondViewController *)[storyboard instantiateViewControllerWithIdentifier:@"aViewIdentifier"];
     //go to MainStoryboard.storyboard
