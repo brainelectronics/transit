@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)openSecondView:(id)sender;
+
 @end

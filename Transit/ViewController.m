@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -26,4 +27,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openSecondView:(id)sender
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    SecondViewController *secondView = (SecondViewController *)[storyboard instantiateViewControllerWithIdentifier:@"aViewIdentifier"];
+    //go to MainStoryboard.storyboard
+    //add a new view controller from the utilities
+    //select Identity Inspector
+    //select "Custom Class" the View Controller Class you've added
+    //add a identifier, which has to be the same as above
+    
+    NSLog(@"Open Second View ...");
+    [self presentViewController:secondView animated:YES completion:nil];
+}
 @end

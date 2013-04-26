@@ -23,6 +23,7 @@
 		DF765512172AFECB00BD6EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7654ED172AFECA00BD6EDC /* Foundation.framework */; };
 		DF76551A172AFECB00BD6EDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF765518172AFECB00BD6EDC /* InfoPlist.strings */; };
 		DF76551D172AFECB00BD6EDC /* TransitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF76551C172AFECB00BD6EDC /* TransitTests.m */; };
+		DF765528172AFF0D00BD6EDC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF765527172AFF0D00BD6EDC /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		DF765519172AFECB00BD6EDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF76551B172AFECB00BD6EDC /* TransitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitTests.h; sourceTree = "<group>"; };
 		DF76551C172AFECB00BD6EDC /* TransitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitTests.m; sourceTree = "<group>"; };
+		DF765526172AFF0D00BD6EDC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DF765527172AFF0D00BD6EDC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				DF765503172AFECB00BD6EDC /* MainStoryboard.storyboard */,
 				DF765506172AFECB00BD6EDC /* ViewController.h */,
 				DF765507172AFECB00BD6EDC /* ViewController.m */,
+				DF765526172AFF0D00BD6EDC /* SecondViewController.h */,
+				DF765527172AFF0D00BD6EDC /* SecondViewController.m */,
 				DF7654F2172AFECA00BD6EDC /* Supporting Files */,
 			);
 			path = Transit;
@@ -273,6 +278,7 @@
 				DF7654F8172AFECA00BD6EDC /* main.m in Sources */,
 				DF7654FC172AFECA00BD6EDC /* AppDelegate.m in Sources */,
 				DF765508172AFECB00BD6EDC /* ViewController.m in Sources */,
+				DF765528172AFF0D00BD6EDC /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
